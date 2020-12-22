@@ -24,6 +24,7 @@ function App() {
   const handleSubmit = (e) => {
     e.preventDefault();
     try {
+      console.log(shadesCount)
       let colors = new Values(color).all(shadesCount);
       setList(colors);
       setError(false);
@@ -62,8 +63,9 @@ function App() {
           <FaRegWindowClose onClick={closeModal}>close</FaRegWindowClose>
         </div>
         <div className="modal-body">
-          <p>Choose a color code hex whose shades you want and choose the number of shades you want to generate</p> 
-          <p>If you have choden <strong>N</strong> number of shades, then this Shades Generator would generate <strong>N/2</strong> shades which are lighter than your chosen shade and <strong>N/2</strong> shades which are darker.</p>
+          <p>Choose a color code hex whose shades you want and choose the number of shades you want to generate.</p> 
+          <p>If you have choden <strong>N</strong> number of shades, then this Shades Generator would generate <strong>N/2</strong> shades which are lighter than your chosen shade, the color you have chosen (at 0%) and <strong>N/2</strong> shades which are darker.</p>
+          <p>Default vaule for color is <strong>#f15025</strong> and default number of shades is <strong>20</strong>.</p>
         </div>
       </Modal>
       <section className='container'>
@@ -80,7 +82,7 @@ function App() {
             <input
               type = 'number'
               placeholder = 'Number of Shades (20)'
-              onChange = {(e) => setShadesCount(200 / e.target.value || 10)}
+              onChange = {(e) => setShadesCount(e.target.value ? 200 / e.target.value : 10)}
               className = {`${error ? 'error' : null}`}
             />
             <button type='submit' className='btn'>

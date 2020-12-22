@@ -13,7 +13,7 @@ const SingleColor = ({ rgb, weight}) => {
   }, [alert]);
   return (
     <article
-      className={`color ${parseInt(hex.replace('#', ''), 16) <= parseInt("888888", 16) && 'color-light'}`}
+      className={`color ${parseInt(hex.replace('#', ''), 16) <= parseInt("aaaaaa", 16) && 'color-light'}`}
       style={{ backgroundColor: `rgb(${bcg})` }}
       onClick={() => {
         setAlert(true);

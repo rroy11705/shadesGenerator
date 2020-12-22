@@ -183,7 +183,7 @@ input.error {
   border: 2px solid var(--clr-red-dark);
 }
 .colors {
-  min-height: calc(100vh - 100px);
+  min-height: calc(100vh - 120px);
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(223.33px, 1fr));
   grid-template-rows: repeat(auto-fit, minmax(96px, 1fr));
@@ -213,6 +213,11 @@ input.error {
   text-transform: uppercase;
   font-size: 0.85rem;
   margin-top: 0.5rem;
+  color: var(--clr-grey-2);
+}
+
+.color-light .alert {
+  color: var(--clr-white);
 }
 
 .modal-header {
