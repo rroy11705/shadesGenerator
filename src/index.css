@@ -94,6 +94,7 @@ h4 {
 }
 p {
   color: var(--clr-grey-5);
+  font-size: 1rem;
 }
 @media screen and (min-width: 800px) {
   h1 {
@@ -118,7 +119,13 @@ p {
     line-height: 1;
   }
 }
+
 /*  global classes */
+.fa-icon {
+  border: none;
+  outline: none;
+  font-size: 1.5rem;
+}
 
 /* section */
 .section {
@@ -141,7 +148,7 @@ Color Generator
 
 .container {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   justify-content: space-between;
   margin: 1rem 2rem;
 }
@@ -223,5 +230,5 @@ input.error {
 .modal-header {
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: flex-start;
 }

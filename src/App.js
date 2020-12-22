@@ -60,7 +60,9 @@ function App() {
       >
         <div className="modal-header">
           <h2 ref={_subtitle => (subtitle = _subtitle)}>How to use Shades Generator</h2>
-          <FaRegWindowClose onClick={closeModal}>close</FaRegWindowClose>
+          <button className="fa-icon">
+            <FaRegWindowClose onClick={closeModal}>close</FaRegWindowClose>
+          </button>
         </div>
         <div className="modal-body">
           <p>Choose a color code hex whose shades you want and choose the number of shades you want to generate.</p> 
@@ -91,8 +93,10 @@ function App() {
           </form>
         </div>
         <div className="container-info">
-          <FaInfoCircle onClick={openModal}>
-          </FaInfoCircle>
+          <button className="fa-icon">
+            <FaInfoCircle onClick={openModal}>
+            </FaInfoCircle>
+          </button>
         </div>
       </section>
       <section className='colors'>
