@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "dc3ca6b79e27dcbe0c2f05745dee2bb0",
+    "revision": "24c9bb19becdbf357cdfa9631061eb7e",
     "url": "/shadesGenerator/index.html"
   },
   {
-    "revision": "538cf8f74d72e47ed16f",
-    "url": "/shadesGenerator/static/css/main.9d95e5c9.chunk.css"
+    "revision": "c3c0fead7ec2c21a3b32",
+    "url": "/shadesGenerator/static/css/main.44793cd0.chunk.css"
   },
   {
     "revision": "5d365b6c09267480acd3",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/shadesGenerator/static/js/2.8a645749.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "538cf8f74d72e47ed16f",
-    "url": "/shadesGenerator/static/js/main.1859d238.chunk.js"
+    "revision": "c3c0fead7ec2c21a3b32",
+    "url": "/shadesGenerator/static/js/main.e8bccce4.chunk.js"
   },
   {
     "revision": "54a78c1f704229fe448a",

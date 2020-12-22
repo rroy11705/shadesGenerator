@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/shadesGenerator/static/css/main.9d95e5c9.chunk.css",
-    "main.js": "/shadesGenerator/static/js/main.1859d238.chunk.js",
-    "main.js.map": "/shadesGenerator/static/js/main.1859d238.chunk.js.map",
+    "main.css": "/shadesGenerator/static/css/main.44793cd0.chunk.css",
+    "main.js": "/shadesGenerator/static/js/main.e8bccce4.chunk.js",
+    "main.js.map": "/shadesGenerator/static/js/main.e8bccce4.chunk.js.map",
     "runtime-main.js": "/shadesGenerator/static/js/runtime-main.959c8546.js",
     "runtime-main.js.map": "/shadesGenerator/static/js/runtime-main.959c8546.js.map",
     "static/js/2.8a645749.chunk.js": "/shadesGenerator/static/js/2.8a645749.chunk.js",
     "static/js/2.8a645749.chunk.js.map": "/shadesGenerator/static/js/2.8a645749.chunk.js.map",
     "index.html": "/shadesGenerator/index.html",
-    "precache-manifest.0a8f0aaaaf3eaf4225f7c0bfe8e91225.js": "/shadesGenerator/precache-manifest.0a8f0aaaaf3eaf4225f7c0bfe8e91225.js",
+    "precache-manifest.ed524a8d28e1b321315612ad52bac746.js": "/shadesGenerator/precache-manifest.ed524a8d28e1b321315612ad52bac746.js",
     "service-worker.js": "/shadesGenerator/service-worker.js",
-    "static/css/main.9d95e5c9.chunk.css.map": "/shadesGenerator/static/css/main.9d95e5c9.chunk.css.map",
+    "static/css/main.44793cd0.chunk.css.map": "/shadesGenerator/static/css/main.44793cd0.chunk.css.map",
     "static/js/2.8a645749.chunk.js.LICENSE.txt": "/shadesGenerator/static/js/2.8a645749.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.959c8546.js",
     "static/js/2.8a645749.chunk.js",
-    "static/css/main.9d95e5c9.chunk.css",
-    "static/js/main.1859d238.chunk.js"
+    "static/css/main.44793cd0.chunk.css",
+    "static/js/main.e8bccce4.chunk.js"
   ]
 }
